@@ -13,8 +13,8 @@ default 1
 
 -Primary #e67e22
 -Tints:#fae5d3
--Shades:
--accents:
+-Shades:#cf711f
+-accents:#170d03
 -greys
 #555
 
@@ -47,4 +47,5 @@ body{
   font-weight: 400;
   line-height: 1;
   color: #555;
+  overflow-x: hidden;
 }

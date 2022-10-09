@@ -1,0 +1,53 @@
+.features-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+.feature-text:hover{
+    font-size: 2.5rem;
+    color: #e67e22;
+    transition: 1s ease;
+}
+.feature{
+    width: 80%;
+    margin: 2rem auto;
+    height: 20vh;
+   
+}
+.feature-text{
+    text-align: center;
+    transition: ease 1s all;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.features-logo h1{
+    color: #555;
+    filter:grayscale(100%) ;
+    transition: ease 1s all;
+}
+.features-logo h1 span:nth-child(1){
+    font-size: 3rem;
+    color: #547448;
+}
+.features-logo h1 span:nth-child(2){
+    position: relative;
+    left:0.8rem;
+}
+.features-logo h1:nth-child(2){
+    font-family: 'Gideon Roman', cursive;
+}
+.features-logo h1:nth-child(3){
+    font-family: 'Tiro Devanagari Hindi', serif;
+    letter-spacing: -1px;
+}
+.features-logo h1:hover{
+    filter: grayscale(0%);
+    color:#000000;
+    transition: 1s ease;
+    cursor: pointer;
+}

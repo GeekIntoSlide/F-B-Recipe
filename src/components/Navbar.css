@@ -1,0 +1,46 @@
+.header{
+    height: 9.5rem;
+    background-color:#fae5d3;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+.logo{
+    font-size: 8rem;
+    font-weight: 700;
+    margin: 2rem;
+    color:#eea564;
+    transition: all 1s ease;
+}
+.logo:hover{
+    letter-spacing: 2rem;
+    cursor:pointer;
+    transition: 1000ms ease;
+    color:#cf711f;;
+}
+.logo:hover span{
+    color: #170d03;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-top: 6rem;
+}
+li{
+    margin: 1rem;
+    font-size: 2.2rem;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 900;
+    transition: ease 1s all;
+}
+li:hover{
+    letter-spacing: 0.3rem;
+    color: #cf711f;
+    transition: 1s ease;
+    font-size: 2.5rem;
+    text-decoration: line-through;
+    cursor: pointer;
+}

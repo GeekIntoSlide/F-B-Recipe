@@ -1,0 +1,64 @@
+.testim{
+    margin-top: 4rem;
+}
+.testi-table{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.mPhoto{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 1rem;
+}
+.mPhoto img{
+    max-width: 90%;
+    transition: ease .5s all;
+}
+.mPhoto img:hover{
+    transform: scale(1.5);
+    transition: .5s ease;
+}
+.test-text{
+    margin-left: 2rem;
+} 
+.test-text h1{
+ font-size: 2rem;
+ margin-top: 4rem;
+ transition: ease 1s all;
+ display: inline-block;
+}
+.test-text h1:hover{
+    color: #e67e22;
+    transition: 1s ease;
+    transform: scale(1.2);
+}
+
+.te{
+    margin-top: 2rem;
+    font-size: 5rem;
+ 
+}
+.comment{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+}
+.comment img{
+    transition: ease 1s all;
+  max-width: 10%;
+  border-radius: 50%;
+}
+.comment p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.comment img:hover{
+    transition: 1s ease;
+    transform: scale(1.5);
+}
