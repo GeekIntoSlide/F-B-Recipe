@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 80%;
+    background-color: #e67e22;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+}
+.form-col{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 2rem;
+    margin-top: 5rem;
+}
+h2{
+    font-size: 5rem;
+    padding: 1rem;
+    color: black;
+  
+}
+h1{
+    font-size: 2rem;
+    color: black;
+    padding: 1rem;
+}
+input{
+    width: 25rem;
+    height: 3rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.form-col button{
+    background-color: #a15818;
+    width: 25rem;
+    height: 3rem;
+    position: relative;
+    left:-1.5rem;
+    top:4rem;
+    border-radius: .5rem;
+ 
+}
+.photo img{
+max-width: 100%;
+
+}

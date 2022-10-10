@@ -68,4 +68,21 @@ button:hover{
 .card2{
     box-shadow: 1rem;
     background-color: #f3bf91;
+    gap:1rem;
+    position: relative;
+    overflow: hidden;
+}
+.card2::after{
+    position: absolute;
+    content: "Best Value";
+    top:2.5rem;
+    right:-2rem;
+
+    font-size: 2rem;
+    background-color: yellow;
+    transform: rotate(45deg);
+  
+   
+    ;
+    
 }

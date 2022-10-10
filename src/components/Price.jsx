@@ -2,13 +2,13 @@ import './price.css'
 import React from 'react'
 import { AiOutlineCheck } from "react-icons/ai";
 
-export default function price() {
+export default function Price() {
   return (
    <section >
     <div className='price-main'>
     <div className='price-text'>
      <h1>Price</h1>
-     <h2>Eating wel without breaking the bank</h2>
+     <h2>Eating well without breaking the bank</h2>
     </div>
     <div className='price-card'>
         <div className='card1'>
@@ -25,7 +25,7 @@ export default function price() {
         </div>
         <div className='card2'>
             <h1>Complete</h1>
-            <h1>$79</h1>
+            <h1>$99</h1>
             <h3>Per month that just $2.6 per meal</h3>
             <div className='check'>
                 <p><AiOutlineCheck/> 1 meal per day</p>
