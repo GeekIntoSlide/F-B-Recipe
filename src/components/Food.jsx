@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import NavBar from "./NavBar";
+
 import How from "./How";
 import Features from "./Features";
 import Meals from "./Meals";
@@ -11,7 +11,7 @@ import Flast from "./Flast";
 
 export default function Food() {
   return (
-    <div>  <NavBar/>
+    <div>  
     <Hero/>
     <Features/>
     <How/>

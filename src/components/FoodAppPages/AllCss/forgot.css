@@ -1,0 +1,19 @@
+.forgotpassword{
+    background-color: purple;
+    background-image: url("./photos/signinback.jpg");
+    height: 85vh;
+  background-size: cover;
+  background-position: -25rem -28rem;
+
+}
+.forgotpassword button{
+    background-color: #8a4c14;
+    border-radius: 1rem;
+    position: relative;
+    left:35rem;
+    top:-5rem;
+}
+.forgotpassword .text-div h1{
+    position: relative;
+    left:-20rem;
+}

@@ -3,7 +3,7 @@
     grid-template-columns: 2fr 1fr;
     max-width: 80%;
     background-color: #e67e22;
-    margin: 2rem auto;
+    margin: 3rem auto;
     border-radius: 0.5rem;
 }
 .form-col{
